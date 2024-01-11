@@ -2,7 +2,7 @@ import './App.css';
 import Header from './Header';
 import Board from './Board';
 import Reset from './Reset';
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import { connect } from 'react-redux';
 import { playPosition, reset } from './redux/actions';
 
